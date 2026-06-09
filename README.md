@@ -442,3 +442,5 @@ For questions or issues:
 ---
 
 **Built with ❤️ using Next.js, FastAPI, and Google Gemini AI**
+#   - V i d y a - G u i d e - A I  
+ 
