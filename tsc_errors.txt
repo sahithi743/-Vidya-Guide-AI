@@ -1,0 +1,16 @@
+﻿.next/dev/types/validator.ts(62,39): error TS2306: File 'C:/Users/Sahithi Reddy/Downloads/ai-student-placement-platform/app/candidates/[id]/page.tsx' is not a module.
+.next/dev/types/validator.ts(98,39): error TS2306: File 'C:/Users/Sahithi Reddy/Downloads/ai-student-placement-platform/app/jobs/new/page.tsx' is not a module.
+.next/dev/types/validator.ts(107,39): error TS2306: File 'C:/Users/Sahithi Reddy/Downloads/ai-student-placement-platform/app/jobs/page.tsx' is not a module.
+.next/dev/types/validator.ts(125,39): error TS2306: File 'C:/Users/Sahithi Reddy/Downloads/ai-student-placement-platform/app/rankings/[jobId]/[candidateId]/page.tsx' is not a module.
+.next/dev/types/validator.ts(134,39): error TS2306: File 'C:/Users/Sahithi Reddy/Downloads/ai-student-placement-platform/app/rankings/[jobId]/page.tsx' is not a module.
+.next/dev/types/validator.ts(206,39): error TS2306: File 'C:/Users/Sahithi Reddy/Downloads/ai-student-placement-platform/app/api/rankings/generate/route.ts' is not a module.
+.next/types/validator.ts(25,44): error TS2344: Type 'Route' does not satisfy the constraint '"/dashboard"'.
+  Type 'LayoutRoutes' is not assignable to type '"/dashboard"'.
+    Type '"/"' is not assignable to type '"/dashboard"'.
+.next/types/validator.ts(25,75): error TS2344: Type 'Route' does not satisfy the constraint '"/dashboard"'.
+  Type 'LayoutRoutes' is not assignable to type '"/dashboard"'.
+    Type '"/"' is not assignable to type '"/dashboard"'.
+.next/types/validator.ts(62,39): error TS2306: File 'C:/Users/Sahithi Reddy/Downloads/ai-student-placement-platform/app/candidates/[id]/page.tsx' is not a module.
+.next/types/validator.ts(98,39): error TS2306: File 'C:/Users/Sahithi Reddy/Downloads/ai-student-placement-platform/app/jobs/new/page.tsx' is not a module.
+.next/types/validator.ts(116,39): error TS2306: File 'C:/Users/Sahithi Reddy/Downloads/ai-student-placement-platform/app/rankings/[jobId]/[candidateId]/page.tsx' is not a module.
+.next/types/validator.ts(228,39): error TS2307: Cannot find module '../../app/layout.js' or its corresponding type declarations.

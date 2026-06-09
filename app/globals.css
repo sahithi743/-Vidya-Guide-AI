@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    /* Dark professional theme */
+    --background: 0 0% 5%;
+    --foreground: 0 0% 95%;
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 95%;
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 0% 95%;
+    
+    /* Primary - Deep blue accent */
+    --primary: 216 95% 55%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Secondary - Slate gray */
+    --secondary: 0 0% 20%;
+    --secondary-foreground: 0 0% 95%;
+    
+    /* Muted - Subdued colors */
+    --muted: 0 0% 30%;
+    --muted-foreground: 0 0% 70%;
+    
+    /* Accent - Electric blue glow */
+    --accent: 220 100% 60%;
+    --accent-foreground: 0 0% 100%;
+    
+    /* Destructive - Warning red */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    
+    /* UI elements */
+    --border: 0 0% 20%;
+    --input: 0 0% 18%;
+    --ring: 216 95% 55%;
+    
+    /* Charts - Vibrant gradient */
+    --chart-1: 216 95% 55%;
+    --chart-2: 255 100% 65%;
+    --chart-3: 180 100% 50%;
+    --chart-4: 340 90% 60%;
+    --chart-5: 280 85% 60%;
+    
+    --radius: 0.5rem;
+  }
+
+  /* Always dark theme - remove light mode */
+  body {
+    --background: 0 0% 5%;
+    --foreground: 0 0% 95%;
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 95%;
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 216 95% 55%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 20%;
+    --secondary-foreground: 0 0% 95%;
+    --muted: 0 0% 30%;
+    --muted-foreground: 0 0% 70%;
+    --accent: 220 100% 60%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 20%;
+    --input: 0 0% 18%;
+    --ring: 216 95% 55%;
+    --chart-1: 216 95% 55%;
+    --chart-2: 255 100% 65%;
+    --chart-3: 180 100% 50%;
+    --chart-4: 340 90% 60%;
+    --chart-5: 280 85% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
